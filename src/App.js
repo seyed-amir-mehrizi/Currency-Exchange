@@ -8,7 +8,7 @@ import ViewConversionHistory from './components/ViewConversionHistory';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container h-100">
       <Navbar />
       <Routes>
         <Route path='/' element={<CurrencyConvertor />} />
